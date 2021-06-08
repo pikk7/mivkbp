@@ -37,6 +37,8 @@ const PostEvent = (props) => {
   const loading = UI.loading;
   const errors = UI.errors;
   const [selectedDate, handleDateChange] = useState(dayjs());
+
+  // eslint-disable-next-line no-unused-vars
   const [code, setCode] = useState("01");
   const startCode = dayjs().format("YY[B]");
 
